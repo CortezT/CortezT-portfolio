@@ -3,10 +3,11 @@
     padding: 0;
     margin: 0;
 }
+/*Adds color to web page background*/
 body {
-    background-color: #e2e8f0;
+    background-color: #727780;
 }
-/*Got rid of ".header" and changed to "header" beacause this header is not a class atribute in HTML*/
+/*edits the header portion*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -14,25 +15,21 @@ header {
     color: #2b1363;
 }
 
+header img {
+    display:block;
+    position:absolute;
+    top: 4px;
+    left:440px;
+    height:110px;
+    width:110px;
+    border: 5px solid rgb(243, 230, 45);
+    border-radius:50%;
+}
+
 #headername {
     display: flex;
     background: #259ce0;
     width:500px;
-}
-
-#links {
-    display: flex;
-    margin-top: -100px;
-
-}
-
-.profile-picture {
-    height: 200px;
-    width: 100%;
-    margin-left: 0px;
-    background-image: url("./images/R.jpg");
-    background-size: cover;
-    background-position: bottom;
 }
 
 header h1 {
@@ -49,10 +46,26 @@ header div {
 
 a {
     color: #ffffff;
-    text-decoration: underline;
-    margin: 10px
+    margin: 10px;
 }
 
+/*Made edits to the ID links*/
+#links {
+    margin-top: -60px;
+    content:"none";
+    text-decoration: "none";
+}
+
+/*Formats the background picture*/
+.profile-picture {
+    height: 200px;
+    width: 100%;
+    margin-left: 0px;
+    background-image: url("./images/R.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+/*Edits subtitle ID*/
 #subtitle {
     display: flex;
     margin-left: 80%;
@@ -64,12 +77,13 @@ a {
     margin-top: -3%;
 }
 
+/*Formats the class subheader*/
 .subheader {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #000000;
+    color: #ffffff;
 }
 
 .subheader h2 {
@@ -83,79 +97,36 @@ a {
     margin-left:15%;
 }
 
-#line1 {
-    margin-left:7%;
-    font-size:20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    max-width:850px;
-    padding-left:330px;
-    border-left:5px solid rgb(0, 0, 0);
-}
-#line2 {
-    height: 350px;
-    margin-left:11%;
-    font-size:25px;
-    border-left:5px solid rgb(0, 0, 0);
+/*Added lines next to About me, Work, Contact me*/
+#line {
+    border-right:5px solid #ffffff;
 }
 
-#line3 {
-    margin-left:5%;
-    font-size:20px;
-    border-left:5px solid rgb(0, 0, 0);
+/*Formats the about me information*/
+#paragraph {
+    margin-left:270px;
+    max-width: 800px;
+    font-size: x-large;
 }
 
+/*Formats my Horiseon challenge 1 image link*/
 #work1 {
     height:188px;
     width:300px;
     margin:-11.55%;
     margin-top:-11.8%;
     border-radius:10px;
+    border: 10px solid black;
 }
 
-.lable {
-    margin-left: -265px;
-    height: 0%;
-    margin-top:50px;
-    color: #ffffff;
-    font-size: xx-large;
-    font-size: larger;
-    font-family: 'Times New Roman', Times, serif;
-}
-
+/*Formats my Prework image link*/
 #work2 {
     height:188px;
     width:300px;
     margin:-11.55%;
     margin-top:-11.8%;
     border-radius:10px;
-}
-
-.info {
-    color: #000000;
-    text-decoration: underline;
-    margin-left: 15%;
-    font-size: x-large;
-}
-.box1 {
-    height:204px;
-    width:315px;
-    display:flex;
-    padding:25px;
-    border-radius:20px;
-    border: 8px solid rgb(0, 0, 0);
-    box-shadow: 5px 5px rgb(255, 255, 255);
-    font-size:x-large;
-}
-
-.box2 {
-    height:204px;
-    width:315px;
-    display:flex;
-    padding:25px;
-    border-radius:20px;
-    border: 8px solid rgb(0, 0, 0);
-    box-shadow: 5px 5px rgb(255, 255, 255);
-    font-size:x-large;
+    border: 10px solid black;
 }
 
 #space1 {
@@ -164,4 +135,22 @@ a {
 
 #space2 {
     margin-left: 100px;
+}
+
+/*Adds labels to both works*/
+.lable {
+    margin-left: 0px;
+    height: 0%;
+    color: #fae900;
+    font-size: xx-large;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*makes changes to my contact info*/
+.info {
+    color: #ffffff;
+    text-decoration: underline;
+    margin-left: 10%;
+    font-size: x-large;
 }
