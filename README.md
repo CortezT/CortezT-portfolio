@@ -13,9 +13,12 @@ What are the steps required to install your project? Provide a step-by-step desc
 - After that creat a directory you want to clone the new SSH key from the newly created repo. Once created copy the SSH key and clone it into your directory using git clone "_pasted SSH". 
 - Finally your new main should be made and ready for branches to be created to edit your main.  
 
-## Credits
+## PREVIEW
+![launched web screen shot](https://user-images.githubusercontent.com/126823522/228959544-6902b3c5-ea9f-4d6a-b5d6-4e5baf1d2650.jpg)
 
-Collaborators:
+https://cortezt.github.io/CortezT-portfolio/
+
+## Collaborators:
 
 -https://github.com/JPGuerrero1
 -https://github.com/marquis-cortez99
