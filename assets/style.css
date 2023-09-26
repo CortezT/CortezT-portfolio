@@ -130,10 +130,14 @@ a {
 }
 
 #space1 {
-    margin-left: 325px;
+    margin-left: 200px;
 }
 
 #space2 {
+    margin-left: 100px;
+}
+
+#space3 {
     margin-left: 100px;
 }
 
